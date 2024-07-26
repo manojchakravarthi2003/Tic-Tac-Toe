@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: radial-gradient(circle at center center, transparent, rgb(33, 33, 33)),repeating-linear-gradient(434deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 2px, transparent 2px, transparent 10px, rgb(33, 33, 33) 10px, rgb(33, 33, 33) 11px, transparent 11px, transparent 21px), 
+                      repeating-linear-gradient(344deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 4px, transparent 4px, transparent 8px), 
+                      linear-gradient(389deg, rgb(33, 33, 33), rgb(33, 33, 33));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.msg-box h2 {
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+}
+
+.hide {
+    display: none;
+}
+
+#ngame {
+    background-image: linear-gradient(90deg, rgb(214, 83, 21), rgb(241, 159, 1), rgb(228, 121, 11));
+    border-radius: 15px;
+    font-size: 19px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#rgame {
+    background-image: linear-gradient(90deg, rgb(214, 83, 21), rgb(241, 159, 1), rgb(228, 121, 11));
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.player {
+    font-size: 40px;
+    color: greenyellow;
+}
+
+.game {
+    width: 75vmin;
+    height: 75vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 23vmin;
+    height: 23vmin;
+    border: 5px solid navy;
+    border-radius: 20px;
+    background-color: aqua;
+    color: rgb(20, 20, 20);
+    font-size: 50px;
+    font-weight: 900;
+}
