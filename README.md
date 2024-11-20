@@ -2,6 +2,9 @@
 
 A modern, responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Features a sleek design, score tracking, and game reset functionality.
 
+## Link:
+https://tic-tac-toe-xi-five-76.vercel.app/
+
 ## Features
 
 - Two-player gameplay (X and O)
